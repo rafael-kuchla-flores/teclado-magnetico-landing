@@ -1,0 +1,25 @@
+{
+  "name": "teclado-magnetico-landing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafael-kuchla-flores/teclado-magnetico-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rafael-kuchla-flores/teclado-magnetico-landing/issues"
+  },
+  "homepage": "https://github.com/rafael-kuchla-flores/teclado-magnetico-landing#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
