@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NeoKeys | Teclado Magnético</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <div class="logo">NeoKeys</div>
+      <nav class="navegacao">
+        <a href="#sobre">Sobre</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <h1>NeoKeys - Teclados Magnéticos</h1>
+        <p>Sinta cada tecla antes mesmo de pressionar.</p>
+        <button class="btn">Saiba Mais</button>
+      </section>
+
+      <section id="recursos">
+        <h2>Por que escolher o NeoKeys?</h2>
+
+        <div class="lista-recursos">
+          <article class="recurso">
+            <h3>Switches Magnéticos (Hall Effect)</h3>
+            <p>
+              Ajuste o ponto de atuação de cada tecla e sinta uma resposta
+              instantânea, sem desgaste mecânico.
+            </p>
+          </article>
+
+          <article class="recurso">
+            <h3>Anti-ghosting / N-key rollover</h3>
+            <p>
+              Registra 100% das teclas pressionadas simultaneamente, sem
+              travamentos. Com switches magnéticos, o tempo de resposta é
+              praticamente zero — ideal para jogos competitivos.
+            </p>
+          </article>
+
+          <article class="recurso">
+            <h3>Personalização de RGB</h3>
+            <p>
+              Transforme o visual do seu setup com cores vivas e efeitos
+              dinâmicos. Você pode personalizar a iluminação de cada tecla
+              individualmente ou escolher entre vários modos de luz
+              pré-configurados.
+            </p>
+          </article>
+
+          <article class="recurso">
+            <h3>
+              Ajuste de sensibilidade/ponto de atuação por tecla (rapid trigger)
+            </h3>
+            <p>
+              Controle a sensibilidade exata de cada tecla individualmente
+              através do software de configuração. A tecnologia magnética
+              permite o reset instantâneo do clique ao menor movimento do dedo
+              (Rapid Trigger).
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contato">
+        <h2>Entre em Contato</h2>
+
+        <form id="form-contato">
+          <div class="campo">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required />
+          </div>
+
+          <div class="campo">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="campo">
+            <label for="cep">CEP</label>
+            <input
+              type="text"
+              id="cep"
+              name="cep"
+              maxlength="9"
+              placeholder="00000-000"
+            />
+          </div>
+
+          <div class="campo">
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco" name="endereco" readonly />
+          </div>
+
+          <div class="campo">
+            <label for="mensagem">Mensagem</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="rodape-conteudo">
+        <div class="logo">NeoKeys</div>
+
+        <nav class="rodape-links">
+          <a href="#sobre">Sobre</a>
+          <a href="#recursos">Recursos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <div class="rodape-social">
+          <a href="#" aria-label="Instagram">Instagram</a>
+          <a href="#" aria-label="Twitter">Twitter</a>
+          <a href="#" aria-label="YouTube">YouTube</a>
+        </div>
+      </div>
+
+      <p class="copyright">
+        &copy; 2026 NeoKeys. Todos os direitos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
