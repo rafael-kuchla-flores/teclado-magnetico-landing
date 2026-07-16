@@ -1,0 +1,12 @@
+:root {
+  --bg-primary: #0d0d12;
+  --bg-secondary: #16161f;
+  --text-primary: #f2f2f7;
+  --text-secondary: #a1a1b0;
+  --accent-primary: #7c3aed;
+  --accent-secondary: #22d3ee;
+  --border-color: #2a2a38;
+
+  --fonte-titulo: 'Space Grotesk', sans-serif;
+  --fonte-texto: 'Inter', sans-serif;
+}
