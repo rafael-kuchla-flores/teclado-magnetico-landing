@@ -29,3 +29,41 @@ body {
   margin: 0 auto;
   padding: 0 16px;
 }
+
+.cabecalho {
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+
+.cabecalho .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 20px;
+}
+
+.logo {
+  font-family: var(--fonte-titulo);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--accent-primary);
+}
+
+.navegacao {
+  display: flex;
+  gap: 2rem;
+}
+
+.navegacao a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+.navegacao a:hover {
+  color: var(--accent-primary);
+}
