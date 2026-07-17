@@ -4,7 +4,7 @@
   --text-primary: #f2f2f7;
   --text-secondary: #a1a1b0;
   --accent-primary: #7c3aed;
-  --accent-secondary: #22d3ee;
+  --accent-secondary: #07c7e4;
   --border-color: #2a2a38;
 
   --fonte-titulo: 'Space Grotesk', sans-serif;
@@ -65,5 +65,44 @@ body {
 }
 
 .navegacao a:hover {
+  color: var(--accent-primary);
+}
+
+#hero {
+  text-align: center;
+  padding-block: 120px;
+  background: linear-gradient(135deg, var(--bg-primary), var(--accent-primary));
+}
+
+#hero h1 {
+  font-family: var(--fonte-titulo);
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  color: var(--text-primary);
+  margin-bottom: 16px;
+}
+
+#hero p {
+  font-size: 1.25rem;
+  color: var(--text-secondary);
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+
+.btn {
+  background: var(--accent-primary);
+  color: var(--text-primary);
+  border: none;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: var(--text-primary);
+  transform: scale(1.05);
   color: var(--accent-primary);
 }
